@@ -1,0 +1,15 @@
+[package]
+name = "shared"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.75"
+blake3 = "1.5.0"
+digest = "0.10.7"
+ed25519-dalek = "2.0.0"
+serde = "1.0.189"
+borsh = { version = "1.1.0", features = ["borsh-derive"], default-features = false }
+borsh-derive = "1.1.0"
